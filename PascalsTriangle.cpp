@@ -20,3 +20,4 @@ vector<vector<lli>> printPascal(int n)
   }
   return v;
 }
+ 
