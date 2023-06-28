@@ -4,7 +4,7 @@ from collections import *
 from math import *
 
 def pairSum(arr, s):
-    n = len(arr)
+    n = len(arr) 
     map = {}
     ans = []
 
