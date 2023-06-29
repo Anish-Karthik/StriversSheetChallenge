@@ -1,0 +1,16 @@
+from os import *
+from sys import *
+from collections import *
+from math import *
+
+def uniqueSubstrings(s) :
+    
+    d = defaultdict(int)
+    res , st = 0, 0 
+    for end in range(len(s)):
+        if s[end] in d:
+            st = max(st,d[s[end]] + 1)
+
+        d[s[end]] = end
+        res = max(res, end - st + 1)
+    return res
