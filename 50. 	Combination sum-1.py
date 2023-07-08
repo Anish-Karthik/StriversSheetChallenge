@@ -7,6 +7,6 @@ def findSubsetsThatSumToK(arr, n, k) :
             return
         f(ind + 1, k, ds)
         f(ind + 1, k - arr[ind], ds + [arr[ind]])
-    f(0, k, [])
+    f(0, k, []) 
     return res
 
