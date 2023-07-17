@@ -1,5 +1,5 @@
 #------------------------------------------------------------
-## better O(n) space
+## better O(n) space 
 #------------------------------------------------------------
 from collections import *
 def longestSubSeg(arr, n, k):
