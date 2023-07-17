@@ -5,7 +5,7 @@ void heappush(vector<int>& arr, int x) {
     for (int i = arr.size() - 1; i > 0; i = (i - 1) / 2) {
         if(arr[i] < arr[(i-1)/2]) swap(arr[i], arr[(i-1)/2]);
     }
-}
+} 
 int heappop(vector<int>& arr) {
     if(arr.size() == 0) return -1;
     int res = arr[0];
