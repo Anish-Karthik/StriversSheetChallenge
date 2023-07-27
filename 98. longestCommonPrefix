@@ -1,0 +1,11 @@
+def longestCommonPrefix(arr, n):
+    res = min(arr, key = lambda x: len(x))
+    high = len(res)
+    for word in arr:
+        i = 0
+        while i < high and res[i] == word[i]:
+            i+=1
+        high = min(high, i)
+    return res[:high]
+
+
