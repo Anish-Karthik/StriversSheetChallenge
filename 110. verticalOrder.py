@@ -2,7 +2,7 @@ from os import *
 from sys import *
 from collections import *
 from math import *
-
+ 
 '''
 # Binary tree node class for reference
 class BinaryTreeNode:
