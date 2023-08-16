@@ -1,5 +1,4 @@
-class Solution
-{
+class Solution {
     private:
     vector<vector<int>> dp;
     
