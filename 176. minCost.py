@@ -1,6 +1,5 @@
 class Solution:
     def minCost(self, n: int, cuts: List[int]) -> int:
-
         cuts.insert(0,0)
         cuts.append(n)
         cuts.sort()
