@@ -3,7 +3,7 @@ class Solution:
         cuts.insert(0,0)
         cuts.append(n)
         cuts.sort()
-        @cache 
+        @cache
         def f(i, j):
             if i+1 == j:
                 return 0
